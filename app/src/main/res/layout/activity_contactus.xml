@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".Contactus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="#FFC107"
+        android:weightSum="2"
+        android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/center"
+        android:layout_width="396dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="0dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp">
+
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo"
+                    android:layout_height="80dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="02dp"
+                    android:layout_marginBottom="04dp"
+                    android:layout_marginRight="0dp"
+                    android:background="#4e5661" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:text="VEDAMRUT"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="06dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="0dp"
+                    android:background="#4e5661" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Address"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Vedamrut Ayurvedic Multispeciality clinic and Panchkarma centre,  shop no 2 ,bldg no 7,Amrutpark,waylenagar ,Khadakpada, Kalyan west"
+                    android:layout_margin="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="06dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="40dp"
+                    android:background="#4e5661" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Center address"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="K5,ground floor, Gokulnagari NX, near Mahavir nagari,Khadakpada,Kalyan west."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="06dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="0dp"
+                    android:background="#4e5661" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Contact No."
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="266dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="9820896040  /
+                                                     9987147827"
+                        android:fontFamily="sans-serif-light"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="151dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/contactno"
+                        android:layout_weight="2"
+                        android:src="@drawable/ic_perm_phone_msg_black_24dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="06dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="#4e5661" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="EMAIL"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:text="doctor.vijaybachhav@gmail.com"
+                        android:fontFamily="sans-serif-light"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/mail"
+                        android:layout_weight="2"
+                        android:src="@drawable/ic_email_black_24dp" />
+                </LinearLayout>
+
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="06dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#4e5661" />
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+</androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

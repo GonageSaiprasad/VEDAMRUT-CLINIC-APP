@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    tools:context=".Panchakarmatretment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/san" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Snehana"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:text="The therapy which provides the body oiliness as well as it makes the vitiated Doshas easily."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/swedanooo" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Swedana"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="The procedure that alleviates the stiffness of the body, relieves sense of heaviness, and cures feeling of cold."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/vamanam" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Vamana"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:text="It is a process in which waste products i.e. vitiated Doshas are eliminated through the upper channels."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/virech" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Virechana"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="It is a process in which waste products i.e. vitiated Doshas are eliminated through the lower channels."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/basti" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Basti"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:text="It is a process of administration of medicated drugs through the rectum."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/utterbasti" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Uttar Basti"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="The Basti which is given in Upper (Uttar) passage i.e. Urinary or vaginal than usual anal)."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/nasya" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Nasya"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:text="It is a process of instillation of medicated nasal drops."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/rak" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Raktamokshana"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="It is a process of blood letting by means of intravenous route or leech therapy etc."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="199dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/katibasti" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Kati Basti"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:text="The procedure of applying heat to the sacral or lumbar region by retaining warm medicated oil with in a specially formed frame on this area."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/janu" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Janu Basti"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="Retaining warm medicated oil over the painful knee joint for certain period."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/greeva" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="170dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Griva Basti"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:text="The procedure of applying heat to the cervical region by retaining warm medicated oil with in a specially formed frame."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/ruday" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Ruday Basti"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="This is a variety of snigdha sweda where the heat is applied to the painful anterior chest by retaining warm medicated oil within a specially formed frame."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/udvartan" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="165dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Udvartanam"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="It is a deep-dry massage with herbal powder or paste which reduces obesity, imparts mobility to joints, improves texture and complexion of skin."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/patra" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Patra Pinda Sweda"
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="This treatment is for osteo-arthritis, rheumatoid arthritis, spondylitis, sports injuries etc."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/shirodhara" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Shiro Dhara"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:text="This treatment is effective for diseases above the neck, insomnia, impaired memory, spondylitis, paraplegia, neurological -disorders, stress and strain, fatigue and lack of vitality."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/shiro" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Shirovasthi"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="This treatment is highly effective for facial paralysis, dryness of nostrils, mouth and the throat, severe headaches etc."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="216dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="135dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="61dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/pizhichil" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="175dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Pizhichil"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="149dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Kayaseka or Pizhichil with oil is a modified form of Parisheka Sweda developed as a specialty of Kerala. Pizhichil is the process by which the body is made to perspire by means of pouring warm medicated oil in a specific manner."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/navarakizhi" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Navarakizhi"
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="This treatment is useful in all kinds of rheumatism, paralysis, polio congenital deformity of limbs, dislocation of bones and joints etc."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="145dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="41dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/karma" />
+
+                    <View
+                        android:layout_width="180dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Agni Karma"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="143dp"
+                        android:layout_marginTop="70dp"
+                        android:paddingLeft="10dp"
+                        android:text="It is an intentional burn therapy in which point of maximum pain and tenderness is identified by the physician , also pathological lesions are identified with the help of investigations like Xray, MRI."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="235dp"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="175dp"
+                        android:layout_marginLeft="245dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="19dp"
+                        android:src="@drawable/ksharasurta" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="17dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Ksharasutra"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="158dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_marginRight="200dp"
+                        android:paddingLeft="10dp"
+                        android:text="Sushruta is considered as the pioneer of Kshara sutra Chikitsa. Kshara sutra is defined as a surgico-medicament thread processed by application of snuhi, Apamarga Kshara and Haridra which is real force of practice."
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
