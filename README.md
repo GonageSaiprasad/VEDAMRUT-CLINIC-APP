@@ -1,4 +1,3 @@
-# VEDAMRUT
- Clinic App
-# vedamrut
-# vedamrut
+# VEDAMRUT Clinic App
+
+
